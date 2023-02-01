@@ -13,4 +13,12 @@ class Main():
             username_valid = oop.Username.check(username)
         password = getpass('Enter a Password: ')
         phone_number = input('Enter a phone number: ')
-        
+
+        print(
+            f"\n>> Username: {username}\n>> Password: {password}\n>> Phone number: {phone_number}"
+        )
+
+
+if __name__ == "__main__":
+    main = Main()
+    main.run_shopping_list()

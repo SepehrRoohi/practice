@@ -1,4 +1,4 @@
-from enum import UserErrors
+from .enum import UserErrors
 
 
 class UsernameLengthError(ValueError):
